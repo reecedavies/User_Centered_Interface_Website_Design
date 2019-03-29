@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<HTML>
+    <link rel="stylesheet"= href="styles.css">
+	<script src="script.js"> </script>
+
+    <div class="topnav">
+		
+		<a href="index.html"> <img src="images/CR_logo1_png.png" class="logo"></a>
+
+        <b>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="memberships.html">Memberships</a>
+			<a href="contact.html">Contact</a>
+        </b>
+		
+		<div class="shopping_icon"> 
+			<a href="page_not_found.html"> <img src="images/shopping_basket_icon.png" class="shopping_basket_icon"> </a>
+		</div>
+
+        <div class="user_dropdown">
+            <button class="dropdown_button" id="dropdown_button_id">
+                <a href="#"> <img src="images/user_icon.png" class="user_icon"> </a>     
+            </button>
+            <div class="dropdown_content" id="dropdown_content_id">
+                <a id="link_one" href="login.html">Login</a>
+                <a id="link_two" href="sign_up.html">Sign up</a>
+            </div>
+			
+        </div>
+		
+		<div class="search">
+            <input type="text" placeholder="Search...">
+            <button> Search </button>
+        </div>
+    </div>
+	
+    <body>
+	
+		<img src="images/wallpaper_london.jpg" class="wallpaper">
+	
+		<h2> </h2>
+
+		<form class="login_form">
+		<h2 class="login_title">Login</h2>
+		<div class="container">
+			<div>
+				<label for="username"><b>Username</b></label>
+				<input class="input_box" type="text" placeholder="Enter Username" name="username" required>
+			</div>
+			
+			<div style="padding-top: 10px; margin-top: 10px;">
+				<label for="password" ><b>Password</b></label>
+				<input class="input_box" type="password" placeholder="Enter Password" name="password" required>
+			</div>
+			
+            <div style="padding-top: 10px; margin-top: 10px;">
+                <button type="button" class="login_button" onclick="checkDetails(this.form)">Login</button>
+                <!--<button class="login_button" onlick="check(this.form)">Login</button>-->
+            </div>
+			
+			<div style="padding-top: 10px; margin-top: 2px;">
+				<label>
+				<input class="tick_box" type="checkbox" checked="checked" name="remember"> Remember me
+				<span class="forgot_password">Forgot your <a href="#" style="text-decoration: none">password?</a></span>
+				</label>
+			</div>
+			
+			<div style="padding-top: 10px; margin-top: 10px; text-align: center">
+				<label>
+					Don't have an account? <a href="sign_up.html" style="text-decoration: none"> Make one</a>
+				</label>
+			</div>
+		</div>
+		</form>
+    </body>
+</HTML>

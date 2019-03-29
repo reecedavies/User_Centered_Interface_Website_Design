@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<HTML>
+    <link rel="stylesheet"= href="styles.css">
+	<script src="script.js"> </script>
+
+    <div class="topnav">
+		
+		<a href="index.html"> <img src="images/CR_logo1_png.png" class="logo"></a>
+
+        <b>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="memberships.html">Memberships</a>
+			<a href="contact.html">Contact</a>
+        </b>
+		
+		<div class="shopping_icon"> 
+			<a href="page_not_found.html"> <img src="images/shopping_basket_icon.png" class="shopping_basket_icon"> </a>
+		</div>
+
+        <div class="user_dropdown">
+            <button class="dropdown_button" id="dropdown_button_id">
+                <a href="#"> <img src="images/user_icon.png" class="user_icon"> </a>     
+            </button>
+            <div class="dropdown_content" id="dropdown_content_id">
+                <a id="link_one" href="login.html">Login</a>
+                <a id="link_two" href="sign_up.html">Sign up</a>
+            </div>
+			
+        </div>
+		
+		<div class="search">
+            <input type="text" placeholder="Search...">
+            <button> Search </button>
+        </div>
+    </div>
+	
+    <body>
+		<div class="row">
+				<div class="column">
+					<h1 style="text-align: left; font-size: 35px; color: #2b2b2b; padding-left: 30px;">
+						<b>ACCOUNT INFORMATION</b>
+					</h1>
+					
+					<div class="user_information">
+						<p style="padding-top: 7px;" id="account_name">
+							<mark style="background: none; color: #189ce8;">NAME: </mark>
+						</p>
+				
+						<p style="padding-top: 7px;" id="account_username">
+							<mark style="background: none; color: #189ce8;">USERNAME: </mark>
+						</p>
+				
+						<p style="padding-top: 7px;" id="account_email">
+							<mark style="background: none; color: #189ce8;">EMAIL: </mark>
+						</p>
+						
+						<p style="padding-top: 7px;" id="account_home_address">
+							<mark style="background: none; color: #189ce8;">HOME ADDRESS: </mark>
+						</p>
+						
+						<p style="padding-top: 7px;" id="account_billing_address">
+							<mark style="background: none; color: #189ce8;">BILLING ADDRESS: </mark>
+						</p>
+						
+						<p style="padding-top: 7px;" id="account_status">
+							<mark style="background: none; color: #189ce8;">ACCOUNT STATUS: </mark>
+						</p>
+						
+						<button class="change_details_button"> Change Account Details </button>
+						<button class="forgot_password_button"> Forgot Password </button>
+					</div>
+				</div>
+			
+				<div class="column">
+					<h1 style="text-align: left; font-size: 35px; color: #2b2b2b; padding-left: 30px;">
+						<b>ACTIVE MEMBERSHIPS</b>
+					</h1>
+					
+					<div style="padding-left: 30px; margin-top: -1%;">
+						<div class="active_memberships" style="">
+							<ul>
+								<li>
+									<div class="column">
+										<div class="membership_image">
+											<img src="images/sport_trampolining.jpg" class="active_membership_image"/>
+										</div>
+									</div>
+									
+									<div class="column">
+										<div class="active_membership_title">
+											Kangaroo Membership
+										</div>
+										
+										<div class="active_membership_price">
+											<mark style="background: none; color: #189ce8;">Price: </mark>£10/month
+										</div>
+										
+										<div class="active_membership_expiration">
+											<mark style="background: none; color: #189ce8;">Expiration: </mark>05 August 2019
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="column">
+										<div class="membership_image">
+											<img src="images/sport_skiing.jpg" class="active_membership_image"/>
+										</div>
+									</div>
+									
+									<div class="column">
+										<div class="active_membership_title">
+											Yeti Membership
+										</div>
+										
+										<div class="active_membership_price">
+											<mark style="background: none; color: #189ce8;">Price: </mark>£31/month
+										</div>
+										
+										<div class="active_membership_expiration">
+											<mark style="background: none; color: #189ce8;">Expiration: </mark>12 September 2019
+										</div>
+									</div>
+								</li>
+							</ul>	
+						</div>
+					</div>
+					
+					<button class="manage_memberships_button" style="margin-left: 30px;"> Manage Memberships </button>
+					<button class="change_billing_details_button"> Change Billing Details </button>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="column" style="color: white; font-size: 5px;">
+					#
+				</div>
+			
+				<div class="column">
+					<h1 style="text-align: left; font-size: 35px; color: #2b2b2b; padding-left: 30px;">
+						<b>EXPIRED MEMBERSHIPS</b>
+					</h1>
+					
+					<div style="padding-left: 30px; margin-top: -1%;">
+						<div class="active_memberships" style="">
+							<ul>
+								<li>
+									<div class="column">
+										<div class="membership_image">
+											<img src="images/sport_hiking(expired).jpg" class="active_membership_image"/>
+										</div>
+									</div>
+									
+									<div class="column">
+										<div class="active_membership_title">
+											Mountain Lion Membership
+										</div>
+										
+										<div class="active_membership_expiration">
+											<mark style="background: none; color: #189ce8;">Expired on: </mark>23 May 2018
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="column">
+										<div class="membership_image">
+											<img src="images/sport_karate(expired).jpg" class="active_membership_image"/>
+										</div>
+									</div>
+									
+									<div class="column">
+										<div class="active_membership_title">
+											Hedgehog Membership
+										</div>
+										
+										<div class="active_membership_expiration">
+											<mark style="background: none; color: #189ce8;">Expired on: </mark>18 February 2018
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="column">
+										<div class="membership_image">
+											<img src="images/sport_rugby(expired).jpg" class="active_membership_image"/>
+										</div>
+									</div>
+									
+									<div class="column">
+										<div class="active_membership_title">
+											Bull Membership
+										</div>
+										
+										<div class="active_membership_expiration">
+											<mark style="background: none; color: #189ce8;">Expired on: </mark>7 January 2018
+										</div>
+									</div>
+								</li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+			</div>
+	
+    </body>
+</HTML>
